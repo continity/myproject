@@ -7,7 +7,7 @@ ENV COLUMNS 80
 RUN apt-get update \
     && apt-get install -y --force-yes \
     nano python3-pip gettext chrpath libssl-dev libxft-dev \
-    libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
+    libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev libgdal-dev \
     && rm -rf /var/lib/apt-lists/*
 
 
